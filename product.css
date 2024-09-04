@@ -216,3 +216,30 @@ font-weight: 400;
 .product-footer{
     margin-top: 100px;
 }
+@media (max-width:900px)
+{
+    .product-display{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:600px)
+{ 
+.product-icons{
+    display: none;  
+}
+.product-main-image img{
+    width: 100%;
+    padding: 20px;
+
+}
+.option{
+    padding: 6px 8px;
+}
+.option p{
+    display: none;
+}
+.product-d-purchase{
+    max-width: 90%;
+    margin: 20px auto 10px;
+}
+}
